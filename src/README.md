@@ -12,3 +12,14 @@
 * **`chem_torch_ get_ci^+_cj_n_related_matrix.ipynb`**
     * **Purpose:** Generates hopping ($\hat{c}_i^\dagger \hat{c}_j$) and number ($\hat{n}_i$) operators in a sparse matrix format.
     * **Functionality:** Pre-computes these operators to enable efficient ansatz evaluation using **sparse matrix-vector multiplication**.
+
+* **`mole_optim_backprop.ipynb`**
+    * **Purpose:** Executes the optimization routine for molecular ground state preparation using backpropagation.
+    * **Functionality:** Optimizes ansatz parameters based on user-defined inputs.
+    * **Key Parameters:**
+        * `molecule_name`: Name of the target molecule.
+        * `n_orbitals`: Number of orbitals in the active space.
+        * `n_a`, `n_b`: Number of alpha (spin-up) and beta (spin-down) electrons.
+        * `bond_length`: Interatomic distance.
+        * `basis_choice`: Basis set selection (e.g., STO-3G, 6-31G).
+        * `para_repeat_times`: The depth of the ansatz (number of layers).
