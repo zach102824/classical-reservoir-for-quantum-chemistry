@@ -13,3 +13,4 @@ Available at:
 Feel free to explore and use this repository to reproduce the results or extend the methodology presented in the paper. For additional details, you can reach out at **zh168@georgetown.edu**.
 
 ## Citation
+[![DOI](https://zenodo.org/badge/1049217548.svg)](https://doi.org/10.5281/zenodo.18044170)
